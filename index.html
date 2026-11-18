@@ -50,6 +50,17 @@ body{overflow-x:hidden}
 .mode{display:flex;gap:8px;margin-bottom:10px}
 .mode label{flex-direction:row;align-items:center;color:var(--tx);font-size:.9rem}
 .mode input{width:auto}
+
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%;overflow-x:hidden;width:100%}
+body{width:100%;max-width:100vw;overflow-x:hidden}
+main{width:100%;max-width:760px;overflow-x:hidden}
+.card{max-width:100%;overflow:hidden}
+.grid>*,.fr>*,.fr .b>*{min-width:0}
+input,select{-webkit-appearance:none;appearance:none;min-width:0;max-width:100%;width:100%;display:block}
+input[type=datetime-local]{min-height:2.4em;font-size:16px}
+input[type=radio]{-webkit-appearance:radio;appearance:auto;width:auto;display:inline-block}
+.res{table-layout:fixed;width:100%}
+.res td.r{width:7.5em}
 </style>
 </head>
 <body>
